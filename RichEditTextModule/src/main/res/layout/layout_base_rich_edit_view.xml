@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <com.base.sdk.rich.editor.widget.RichEditText
+      android:id="@id/id_editor_view"
+      android:gravity="start"
+      android:textSize="18dp"
+      android:padding="5dp"
+      android:background="@android:color/white"
+      android:layout_above="@id/id_editor_tool_scroll_layout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+
+  <LinearLayout
+      android:id="@id/id_editor_tool_scroll_layout"
+      android:orientation="horizontal"
+      android:clipChildren="false"
+      android:background="#f5f5f5"
+      android:layout_alignParentBottom="true"
+      android:layout_width="match_parent"
+      android:layout_height="40dp">
+
+    <ImageView
+        android:id="@id/id_editor_tool_character_image"
+        android:src="@drawable/edit_tool_bold"
+        android:padding="7dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@id/id_editor_tool_size_image"
+        android:src="@drawable/edit_tool_text_size"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"/>
+
+
+    <ImageView
+        android:id="@id/id_editor_tool_add_link_image"
+        android:src="@drawable/edit_tool_add_link"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@id/id_editor_tool_align_image"
+        android:src="@drawable/edit_tool_align_left"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@id/id_editor_tool_paragraph_image"
+        android:src="@drawable/edit_tool_line_point"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@id/id_editor_tool_add_image_image"
+        android:src="@drawable/edit_tool_add_image"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@id/id_editor_tool_color_image"
+        android:src="@drawable/edit_tool_text_color"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"/>
+
+  </LinearLayout>
+
+  <com.base.sdk.rich.editor.custom.RichToolLayout
+      android:id="@id/id_editor_tool_layout"
+      android:layout_above="@id/id_editor_tool_scroll_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+</RelativeLayout>

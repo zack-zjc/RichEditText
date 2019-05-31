@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/edit_pop_window"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+  <CheckBox
+      android:id="@id/id_editor_tool_paragraph_point"
+      android:gravity="center_vertical"
+      android:button="@null"
+      android:background="@drawable/bg_edit_tool_line_point"
+      android:layout_marginEnd="10dp"
+      android:layout_width="40dp"
+      android:layout_height="40dp"/>
+
+  <CheckBox
+      android:id="@id/id_editor_tool_paragraph_number"
+      android:gravity="center_vertical"
+      android:button="@null"
+      android:background="@drawable/bg_edit_tool_line_number"
+      android:layout_width="40dp"
+      android:layout_height="40dp"/>
+
+
+</LinearLayout>
