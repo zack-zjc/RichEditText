@@ -18,7 +18,7 @@ allprojects {
 }
 ```	
 
-Step 2. 在你的module的build.gradle文件中增加LRecyclerView依赖。
+Step 2. 在你的module的build.gradle文件中增加RichEditText依赖。
 
 ```groovy
 implementation 'com.github.zack-zjc:RichEditText:1.0.0'
