@@ -1,0 +1,4 @@
+include ':app'
+
+include ':RichEditTextModule'
+project(':RichEditTextModule').projectDir = new File('RichEditTextModule')

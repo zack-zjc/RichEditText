@@ -1,0 +1,18 @@
+project.ext {
+
+    android = [
+        compileSdkVersion: 28,
+        buildToolsVersion: "27.0.3",
+        minSdkVersion    : 21,
+        targetSdkVersion : 27
+    ]
+
+    dependencies = [
+        "kotlin-stdlib-jdk7"            : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+        "constraintlayout"              : "com.android.support.constraint:constraint-layout:1.1.2",
+        "fastjson"                      : "com.alibaba:fastjson:1.1.46.android",
+        "appcompat-v7"                  : "com.android.support:appcompat-v7:27.1.1",
+        "support-v4"                    : "com.android.support:support-v4:27.1.1",
+        "design"                        : 'com.android.support:design:27.1.1',
+    ]
+}
